@@ -37,7 +37,7 @@ export default async function ModelDetailPage({ params }: ModelDetailPageProps) 
         {/* Image Section */}
         <figure className="relative overflow-hidden rounded-lg shadow-lg aspect-square">
             <Image
-                src={placeholderImg}
+                src="https://aashgray.github.io/scrimba-tutorial-printforge/placeholder.png"
                 alt={`3D model of ${model.name}`}
                 className="absolute inset-0 object-cover w-full h-full"
                 width={placeholderImg.width}

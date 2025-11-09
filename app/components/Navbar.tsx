@@ -11,7 +11,7 @@ export default function Navbar() {
           <div className="relative cursor-pointer">
             {/* Desktop Logo */}
             <Image
-              src={PFLogo}
+              src="https://aashgray.github.io/scrimba-tutorial-printforge/printforge-logo.svg"
               alt="PrintForge Logo"
               className="w-[200px] h-auto hidden md:block"
               width={PFLogo.width}
@@ -19,7 +19,7 @@ export default function Navbar() {
             />
             {/* Mobile Logo */}
             <Image
-              src={PFLogoIcon}
+              src="https://aashgray.github.io/scrimba-tutorial-printforge/printforge-logo-icon.svg"
               alt="PrintForge Logo"
               className="w-[40px] h-auto block md:hidden"
               width={PFLogoIcon.width}

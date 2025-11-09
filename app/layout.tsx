@@ -27,14 +27,14 @@ export default function RootLayout({children}: RootLayoutProps) {
             <Link href="/">
                 <div className="relative cursor-pointer">
                   <Image
-                    src={PrintforgeLogo}
+                    src="https://aashgray.github.io/scrimba-tutorial-printforge/printforge-logo.svg"
                     alt="PrintForge Logo"
                     className="w-[200px] h-auto hidden md:block"
                     width={PrintforgeLogo.width}
                     height={PrintforgeLogo.height}
                   />
                   <Image
-                    src={PrintforgeIcon}
+                    src="https://aashgray.github.io/scrimba-tutorial-printforge/printforge-logo-icon.svg"
                     alt="PrintForge Logo"
                     className="w-[40px] h-auto block md:hidden"
                     width={PrintforgeIcon.width}
