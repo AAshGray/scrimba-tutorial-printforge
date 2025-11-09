@@ -4,6 +4,15 @@ import { FaRegHeart } from "react-icons/fa6";
 import Pill from "@/app/components/Pill"
 import placeholderImg from "@/public/placeholder.png"
 import Image from "next/image"
+import modelsData from "@/app/data/models.json";
+
+
+//
+export async function generateStaticParams() {
+  return modelsData.map((model) => ({
+    id: model.id.toString(),
+  }));
+}
 
 export default async function ModelDetailPage({ params }: ModelDetailPageProps) {
   /**
@@ -28,7 +37,7 @@ export default async function ModelDetailPage({ params }: ModelDetailPageProps) 
         {/* Image Section */}
         <figure className="relative overflow-hidden rounded-lg shadow-lg aspect-square">
             <Image
-                src={placeholderImg.src}
+                src={placeholderImg}
                 alt={`3D model of ${model.name}`}
                 className="absolute inset-0 object-cover w-full h-full"
                 width={placeholderImg.width}

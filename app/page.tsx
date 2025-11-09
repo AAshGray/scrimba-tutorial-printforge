@@ -31,7 +31,7 @@ export default function Home() {
           </div>
         </div>
         <Image
-          src={HeroImage.src}
+          src={HeroImage}
           width={HeroImage.width}
           height={HeroImage.height}
           alt="PrintForge Community - A group of makers collaborating on 3D printing projects"

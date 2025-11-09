@@ -27,14 +27,14 @@ export default function RootLayout({children}: RootLayoutProps) {
             <Link href="/">
                 <div className="relative cursor-pointer">
                   <Image
-                    src={PrintforgeLogo.src}
+                    src={PrintforgeLogo}
                     alt="PrintForge Logo"
                     className="w-[200px] h-auto hidden md:block"
                     width={PrintforgeLogo.width}
                     height={PrintforgeLogo.height}
                   />
                   <Image
-                    src={PrintforgeIcon.src}
+                    src={PrintforgeIcon}
                     alt="PrintForge Logo"
                     className="w-[40px] h-auto block md:hidden"
                     width={PrintforgeIcon.width}
